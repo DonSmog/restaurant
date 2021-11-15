@@ -32,7 +32,10 @@ section {
 section:nth-child(even) {
   background: #eee;
 }
-
+.home-slider {
+  overflow: hidden;
+  flex-wrap: wrap;
+}
 .home .home-slider .slide {
   display: flex;
   align-items: center;
@@ -88,9 +91,7 @@ section:nth-child(even) {
 
 header {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
   background: #fff;
   padding: 1rem 7%;
   display: flex;
@@ -422,7 +423,10 @@ header .icons #menu-bars {
   margin-left: 1rem;
   font-size: 2.5rem;
 }
-
+.review {
+  overflow: hidden;
+  flex-wrap: wrap;
+}
 .review .slide {
   padding: 2rem;
   box-shadow: var(--box-shadow);
